@@ -35,51 +35,51 @@ $ g++ 20160428_3.cpp -o 20160428_3.exe
 
 1) 초기에 공백 체인을 생성하는 생성자
 
-`Chain<T>()`
+	`Chain<T>()`
 
 2) 체인의 모든 원소를 삭제하는 파괴자
 
-`~Chain<T>()`
+	`~Chain<T>()`
 
 3) 체인의 맨 앞에 삽입하는 함수
 
-`InsertFront(T x)`
+	`InsertFront(T x)`
 
 4) 체인의 맨 뒤에 삽입하는 함수
 
-`InsertBack(T x)`
+	`InsertBack(T x)`
 
 5) 리스트의 첫 번째 원소를 반환하는 Front 함수
 
-`Front()`
+	`Front()`
 
 6) 리스트의 마지막 원소를 반환하는 Back 함수
 
-`Back()`
+	`Back()`
 
 7) 리스트의 i번째 원소를 반환하는 함수 Get(i)
 
-`Get()`
+	`Get()`
 
 8) 체인의 맨 앞에서 삭제하는 함수
 
-`DeleteFront()`
+	`DeleteFront()`
 
 9) 체인의 맨 뒤에서 삭제하는 함수
 
-`DeleteBack()`
+	`DeleteBack()`
 
 10) i번째 원소 뒤에 삽입하는 함수
 
-`InsertNext(int i, T x)`
+	`InsertNext(int i, T x)`
 
 11) i번째 원소를 삭제하는 함수
 
-`DeleteNext(int i)`
+	`DeleteNext(int i)`
 
 12) 반복자
 
-`Chain<T>::iter`
+	`Chain<T>::iter`
 
 
 ## 소스코드
